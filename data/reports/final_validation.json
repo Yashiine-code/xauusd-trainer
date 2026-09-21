@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "rows": 2196367,
+  "errors": [],
+  "checks": [
+    "timestamp unique",
+    "timestamp ascending",
+    "timestamp UTC",
+    "OHLC positive and finite",
+    "OHLC relationships valid",
+    "volume finite and non-null"
+  ]
+}

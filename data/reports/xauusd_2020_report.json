@@ -1,0 +1,41 @@
+{
+  "year": 2020,
+  "source_files": [
+    "HISTDATA_COM_MT_XAUUSD_M12020.zip::DAT_MT_XAUUSD_M1_2020.csv"
+  ],
+  "raw_rows": 354351,
+  "parsed_rows": 354351,
+  "clean_rows": 354291,
+  "removed_or_deduplicated_rows": 60,
+  "duplicate_rows": 60,
+  "conflicting_duplicates": 0,
+  "invalid_ohlc": 0,
+  "invalid_price": 0,
+  "missing_ohlc": 0,
+  "missing_timestamp": 0,
+  "missing_values_count": 0,
+  "invalid_timestamp": 0,
+  "invalid_numeric": 0,
+  "volume_missing_filled": 0,
+  "out_of_order_count": 1,
+  "data_gap_count": 330,
+  "expected_market_gaps": 249,
+  "unexpected_gaps": 81,
+  "missing_minutes_total": 171248,
+  "gap_buckets": {
+    "1-5": 69,
+    "6-60": 202,
+    ">60": 59
+  },
+  "suspicious_price_jumps": 0,
+  "saturday_candles": 0,
+  "sunday_candles": 3348,
+  "price_decimal_places": {
+    "6": 1417404
+  },
+  "first_timestamp": "2020-01-01T23:00:00Z",
+  "last_timestamp": "2020-12-31T21:58:00Z",
+  "timezone_source": "EST (fixed UTC-05:00, no DST); https://www.histdata.com/f-a-q/data-files-detailed-specification/",
+  "output_timezone": "UTC",
+  "volume_source": "original"
+}

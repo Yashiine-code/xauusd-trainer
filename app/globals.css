@@ -1,0 +1,298 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../vendor/shadcn-tailwind-4.13.0.css";
+
+:root {
+  --background: #090b0d;
+  --foreground: #d8dde2;
+  --card: #111519;
+  --card-foreground: #d8dde2;
+  --popover: #111519;
+  --popover-foreground: #d8dde2;
+  --primary: #d6b66d;
+  --primary-foreground: #111315;
+  --secondary: #171c21;
+  --secondary-foreground: #d8dde2;
+  --muted: #171c21;
+  --muted-foreground: #7c8791;
+  --accent: #1b2127;
+  --accent-foreground: #eef1f4;
+  --destructive: #ef5350;
+  --border: #252b31;
+  --input: #303840;
+  --ring: #d6b66d;
+  --chart-1: #26a69a;
+  --chart-2: #ef5350;
+  --chart-3: #d6b66d;
+  --chart-4: #7f8994;
+  --chart-5: #bac2c9;
+  --radius: 0.25rem;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: 0.125rem;
+  --radius-md: 0.25rem;
+  --radius-lg: 0.375rem;
+  --radius-xl: 0.5rem;
+  --font-sans: Arial, Helvetica, "PingFang SC", sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
+
+* {
+  border-color: var(--border);
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, "PingFang SC", sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.section-kicker {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.14em;
+  color: #d6b66d;
+}
+
+.data-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid #27322f;
+  padding: 0.36rem 0.55rem;
+  color: #7e9992;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.08em;
+}
+
+.data-badge span,
+.status-dot {
+  width: 0.38rem;
+  height: 0.38rem;
+  border-radius: 999px;
+  background: #26a69a;
+}
+
+.data-badge--mock {
+  border-color: #423b27;
+  color: #baa56f;
+}
+
+.data-badge--mock span {
+  background: #d6b66d;
+}
+
+.decision-active {
+  border-color: #d6b66d !important;
+  background: #211e16 !important;
+  color: #e0c782 !important;
+}
+
+.replay-button {
+  height: 2.75rem;
+  border-color: #303840;
+  background: transparent;
+  color: #aeb6bd;
+}
+
+.replay-button:hover {
+  background: #171c21;
+  color: #ffffff;
+}
+
+.replay-button:active {
+  transform: translateY(1px);
+}
+
+.trade-line-zone {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  height: 18px;
+  pointer-events: none;
+  outline: none;
+}
+
+.position-tool {
+  position: absolute;
+  inset-block: 0;
+  z-index: 12;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.position-tool__profit,
+.position-tool__risk {
+  position: absolute;
+  inset-inline: 0;
+  border: 1px solid;
+  transition: opacity 120ms ease;
+}
+
+.position-tool__profit {
+  border-color: rgb(38 166 154 / 72%);
+  background: rgb(38 166 154 / 19%);
+}
+
+.position-tool__risk {
+  border-color: rgb(239 83 80 / 72%);
+  background: rgb(239 83 80 / 19%);
+}
+
+.position-tool--pending .position-tool__profit,
+.position-tool--pending .position-tool__risk {
+  border-style: dashed;
+  opacity: 0.55;
+}
+
+.position-tool__duration {
+  position: absolute;
+  right: 5px;
+  border: 1px solid rgb(132 143 153 / 45%);
+  background: rgb(8 11 13 / 82%);
+  padding: 2px 5px;
+  color: #aab2ba;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+.current-price-label {
+  position: absolute;
+  top: 40px;
+  right: 76px;
+  z-index: 16;
+  border: 1px solid #354049;
+  background: rgb(11 14 17 / 88%);
+  padding: 4px 7px;
+  color: #77838e;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  pointer-events: none;
+}
+
+.current-price-label b {
+  margin-left: 5px;
+  color: #d8dde2;
+  font-size: 11px;
+}
+
+.trade-line-zone--draggable {
+  pointer-events: auto;
+  cursor: ns-resize;
+  touch-action: none;
+}
+
+.trade-line-zone--dragging {
+  cursor: grabbing;
+}
+
+.trade-line-rule {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.78;
+  transition: height 120ms ease, opacity 120ms ease;
+}
+
+.trade-line-zone--draggable:hover .trade-line-rule,
+.trade-line-zone--draggable:focus-visible .trade-line-rule,
+.trade-line-zone--dragging .trade-line-rule {
+  height: 2px;
+  opacity: 1;
+}
+
+.trade-line-label {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  display: inline-flex;
+  min-height: 24px;
+  transform: translateY(-50%);
+  align-items: center;
+  gap: 7px;
+  border: 1px solid currentColor;
+  background: #0d1114;
+  padding: 3px 7px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  line-height: 1;
+  box-shadow: 0 2px 10px rgb(0 0 0 / 32%);
+  white-space: nowrap;
+}
+
+.trade-line-label b {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+}
+
+.trade-line-label strong {
+  font-weight: 600;
+}
+
+@media (max-width: 640px) {
+  .data-badge {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

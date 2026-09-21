@@ -1,0 +1,2 @@
+ALTER TABLE "wrong_book_entries" ENABLE ROW LEVEL SECURITY;
+ALTER TABLE "wrong_book_entries" FORCE ROW LEVEL SECURITY;

@@ -1,0 +1,41 @@
+{
+  "year": 2022,
+  "source_files": [
+    "HISTDATA_COM_MT_XAUUSD_M12022 (1).zip::DAT_MT_XAUUSD_M1_2022.csv"
+  ],
+  "raw_rows": 354628,
+  "parsed_rows": 354628,
+  "clean_rows": 354568,
+  "removed_or_deduplicated_rows": 60,
+  "duplicate_rows": 60,
+  "conflicting_duplicates": 0,
+  "invalid_ohlc": 0,
+  "invalid_price": 0,
+  "missing_ohlc": 0,
+  "missing_timestamp": 0,
+  "missing_values_count": 0,
+  "invalid_timestamp": 0,
+  "invalid_numeric": 0,
+  "volume_missing_filled": 0,
+  "out_of_order_count": 1,
+  "data_gap_count": 312,
+  "expected_market_gaps": 241,
+  "unexpected_gaps": 71,
+  "missing_minutes_total": 166650,
+  "gap_buckets": {
+    "6-60": 200,
+    ">60": 58,
+    "1-5": 54
+  },
+  "suspicious_price_jumps": 0,
+  "saturday_candles": 0,
+  "sunday_candles": 3236,
+  "price_decimal_places": {
+    "6": 1418512
+  },
+  "first_timestamp": "2022-01-02T23:00:00Z",
+  "last_timestamp": "2022-12-30T21:57:00Z",
+  "timezone_source": "EST (fixed UTC-05:00, no DST); https://www.histdata.com/f-a-q/data-files-detailed-specification/",
+  "output_timezone": "UTC",
+  "volume_source": "original"
+}

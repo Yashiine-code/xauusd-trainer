@@ -1,0 +1,106 @@
+[
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/DAT_MT_XAUUSD_M1_202608.csv",
+    "filename": "DAT_MT_XAUUSD_M1_202608.csv",
+    "size_bytes": 1972279,
+    "sha256": "8a9f236a9fbdf24aab2996b2ce112fd56bb87656575214bfb8adc61c6cd5dbce",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/DAT_MT_XAUUSD_M1_202608.csv"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/DAT_MT_XAUUSD_M1_202608.txt",
+    "filename": "DAT_MT_XAUUSD_M1_202608.txt",
+    "size_bytes": 1277,
+    "sha256": "02a68f8a7d00a23598ea8e769d874564a71012e4ea8d0611acd6c56b1cdde154",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/DAT_MT_XAUUSD_M1_202608.txt"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M12020.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M12020.zip",
+    "size_bytes": 4379694,
+    "sha256": "12fb9be3cbeea6e26e797ca839108a2b2e33d0a236d130c03edc83b71572e2a9",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M12020.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M12022 (1).zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M12022 (1).zip",
+    "size_bytes": 4428517,
+    "sha256": "c5392c7abf5ac98b31d5a1e910ef217c2023f11417569617099bbbf7316eff5e",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M12022 (1).zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M12022.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M12022.zip",
+    "size_bytes": 4428517,
+    "sha256": "c5392c7abf5ac98b31d5a1e910ef217c2023f11417569617099bbbf7316eff5e",
+    "status": "duplicate_not_copied",
+    "duplicate_of": "HISTDATA_COM_MT_XAUUSD_M12022 (1).zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M12023.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M12023.zip",
+    "size_bytes": 3680511,
+    "sha256": "a5beb058554e9f3152ab08b5a1dd501275b0069e5c3efa3338766e70c414d26e",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M12023.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M12024.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M12024.zip",
+    "size_bytes": 4427254,
+    "sha256": "e18864bb43b6a35d2e029df8a3ee0a3004b1054c37ffd3d107c6b31885898772",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M12024.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M12025.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M12025.zip",
+    "size_bytes": 4625892,
+    "sha256": "970623db07d09ac06ee4188f504b28cde4c21ef7dddc302ec3f54660a0ba6022",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M12025.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M1202601.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M1202601.zip",
+    "size_bytes": 403970,
+    "sha256": "c532f9307e3c3a78addc182d0fdcddf02095f948d7840d6deaebd33bcf3ea50b",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M1202601.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M1202602.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M1202602.zip",
+    "size_bytes": 395057,
+    "sha256": "00874aea9ef3773c22100aeab41b97179b1c98b09fbe66341e78093f2ca321d9",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M1202602.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M1202603.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M1202603.zip",
+    "size_bytes": 444157,
+    "sha256": "c99403955bfb28aaee719b5ace13f5ffd782624b08eb26718a08b2e28d52a5b1",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M1202603.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/历史行情数据表/HISTDATA_COM_MT_XAUUSD_M1202604.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M1202604.zip",
+    "size_bytes": 404813,
+    "sha256": "23541f5d241b682de779a9b2922f65cc2e2d336eed7492f7fe9579db4550e21d",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M1202604.zip"
+  },
+  {
+    "source_path": "/Users/yashiine002/Downloads/HISTDATA_COM_MT_XAUUSD_M12021.zip",
+    "filename": "HISTDATA_COM_MT_XAUUSD_M12021.zip",
+    "size_bytes": 4313183,
+    "sha256": "7fa08f7545716b4b0a1b1736957cc027c931f3a70fa5ee201b7d0397e6ee063f",
+    "status": "copied",
+    "raw_path": "/Users/yashiine002/Documents/ChatGPT/黄金刷题网站提示词/data/raw/xauusd/HISTDATA_COM_MT_XAUUSD_M12021.zip"
+  }
+]

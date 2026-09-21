@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "xauusd-trading-trainer-r2-poc",
+  "main": "vinext/server/fetch-handler",
+  "compatibility_date": "2026-05-15",
+  "workers_dev": true,
+  "vars": {
+    "MARKET_DATA_MODE": "r2",
+    "PHASE2_ENABLED": "true",
+    "PERSISTENCE_MODE": "tcp"
+  },
+  "r2_buckets": [
+    {
+      "binding": "MARKET_DATA_BUCKET",
+      "bucket_name": "xauusd-market-data"
+    }
+  ]
+}

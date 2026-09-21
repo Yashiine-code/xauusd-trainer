@@ -1,0 +1,1 @@
+DROP INDEX "market_candles_symbol_timeframe_timestamp_idx";

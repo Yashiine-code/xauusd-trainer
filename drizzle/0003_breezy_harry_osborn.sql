@@ -1,0 +1,1 @@
+ALTER TABLE "sessions" ADD COLUMN "snapshot" jsonb DEFAULT '{}'::jsonb NOT NULL;

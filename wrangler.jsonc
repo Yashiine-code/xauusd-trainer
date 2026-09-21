@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "xauusd-trading-trainer",
+  "main": "vinext/server/fetch-handler",
+  "compatibility_date": "2026-05-15",
+  "workers_dev": true,
+  "routes": [
+    {
+      "pattern": "xautrainer.com/*",
+      "zone_name": "xautrainer.com"
+    }
+  ],
+  "vars": {
+    "MARKET_DATA_MODE": "postgres",
+    "PHASE2_ENABLED": "true",
+    "PERSISTENCE_MODE": "tcp"
+  }
+}
